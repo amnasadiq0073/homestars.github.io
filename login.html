@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar background h-nav-resp">
+        <ul class="navlist v-class-resp">
+            <div class="logo">
+                <a href="index.html"><img class="logo-logo" src="img/logo.png" alt="logo"></a>
+            </div>
+            <!-- <li><a href="#home">Home</a></li> -->
+            <li><a href="browse.html">Browse Categories</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="write_review.html">Write a Review</a></li>
+            <li><a href="login.html">Log In</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+        </ul>
+        <div class="rightNav v-class-resp">
+            <!-- <input type="text" name="search" id="search"> -->
+            <button class="btn btn-sm">ARE YOU A HOME PRO?</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <!-- login form -->
+    <div class="main background">
+        <div class="login-form">
+            <form action="action_page.php" method="post">
+
+                <h2 class="heading">Log In</h2>
+                <div class="container">
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+
+                    <button class="btn" type="submit"><span class="fa-li"><i class="fas fa-square"></i></span>Login</button>
+
+                </div>
+
+                <div class="container">
+                    <span class="psw">Forgot <a href="#">password?</a></span><br>
+                </div><br>
+                <p class="paras">Don't have an account yet?<a href="signup.html">Sign Up</a></p>
+
+                <button class="btn"><span class="fab fa-facebook"></span>LOGIN WITH FACEBOOK</button>
+                <button class="btn"><span class="fab fa-google"></span>LOGIN WITH GOOGLE</button>
+            </form>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
